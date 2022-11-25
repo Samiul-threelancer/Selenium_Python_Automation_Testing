@@ -11,11 +11,14 @@ from selenium.webdriver.common.by import By
 # driver.minimize_window()
 driver.get("https://test-ambor-app-742a2.ondigitalocean.app/register")
 # print(driver.current_url)
+phone = "phone_number"
+gmail = "gmail"
 
-driver.find_element(By.ID, 'email').send_keys("demo@gmail.com")
-driver.find_element(By.ID, 'phone').send_keys("01521503621")
-driver.find_element(By.ID, 'password').send_keys("01521503621")
-driver.find_element(By.ID, 'fname').send_keys("01521503621")
+
+driver.find_element(By.ID, 'email').send_keys("gmail")
+driver.find_element(By.ID, 'phone').send_keys("phone_number")
+driver.find_element(By.ID, 'password').send_keys("phone_number")
+driver.find_element(By.ID, 'fname').send_keys("demo")
 
 
 
