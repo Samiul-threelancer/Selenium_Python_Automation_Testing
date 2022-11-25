@@ -3,8 +3,8 @@ from selenium import webdriver
 from time import sleep
 
 from selenium.webdriver.common.by import By
-
-phone = "01521503628"
+phone_number= 01521######
+phone = "phone_number"
 password = "demo1234"
 
 url = "https://test-ambor-app-742a2.ondigitalocean.app/login"
